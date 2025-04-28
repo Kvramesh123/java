@@ -1,0 +1,8 @@
+class OtpGenerator{
+public static void main(String args[]){
+double X=0.1 + (Math.random() * (1.0 - 0.1));
+X=X*10000;
+int otp=(int)X;
+System.out.println(otp);
+}
+}
