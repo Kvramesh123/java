@@ -1,0 +1,36 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Strings {
+    public static void main(String[] args) {
+        String s="hello";
+        String s1=s.concat("Welcome to this"); //string concatination
+        System.out.println(s1);
+        
+        char s2= s1.charAt(2);  //charAt
+        System.out.println(s2);
+        
+        int len=s1.length(); //length of a string
+        System.out.println(len);
+        
+        int comp=s.compareTo(s1); //comparing strings
+        System.out.println(comp);
+        
+        System.out.println(s1.equals(s)); //string equal or not
+        
+        boolean start=s1.startsWith("he");
+        System.out.println(start);
+        
+        //s1.indexOf("e")_int
+        //s.replace('w','e')_string
+        //s1.subString(4,9);
+        //s2.toLowerCase();
+        //s2.toUpperCase();
+        //s1.trim();
+        //string res[] arr=s1.split('o')
+        
+        
+        
+        
+    }
+}
